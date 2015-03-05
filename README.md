@@ -16,22 +16,16 @@ If each node in the tree has a maximum of two children, we say that the tree is 
 - bin_tree_class.py
 
 ## Tree Traversals
-
+	- traversal.py
 ### Pre-order
     - Display the data part of root element (or current element)
     - Traverse the left subtree by recursively calling the pre-order function.
     - Traverse the right subtree by recursively calling the pre-order function.
-
 ### In-order (symmetric)
-
     - Traverse the left subtree by recursively calling the in-order function.
     - Display the data part of root element (or current element).
     - Traverse the right subtree by recursively calling the in-order function.
-
 ### Post-order
-
     - Traverse the left subtree by recursively calling the post-order function.
     - Traverse the right subtree by recursively calling the post-order function.
     - Display the data part of root element (or current element).
-
-- traversal.py
