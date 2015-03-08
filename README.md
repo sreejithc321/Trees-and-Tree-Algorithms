@@ -1,3 +1,4 @@
+
 ## Tree
 
 A tree consists of a set of nodes and a set of edges that connect pairs of nodes. A tree has the following properties:
