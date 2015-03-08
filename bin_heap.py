@@ -1,3 +1,4 @@
+
 # Min heap : smallest key is always at the front
 # Implementation on min heap using lists
 # Left child of a parent (at position p) is the node that is found in position 2p in the list
