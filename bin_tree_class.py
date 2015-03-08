@@ -35,7 +35,7 @@ class BinaryTree():
 		return self.key				
 
 
-# Testing
+
 if __name__ =='__main__':
 	r = BinaryTree('a')
 	print r.get_root_val()
@@ -43,11 +43,9 @@ if __name__ =='__main__':
 	r.insert_left_node('b')
 	print(r.get_left_child())
 	print(r.get_left_child().get_root_val())
-
 	r.insert_right_node('c')
 	print(r.get_right_child())
 	print(r.get_right_child().get_root_val())
-
 	r.get_right_child().set_root_val('test')
 	print(r.get_right_child().get_root_val())
 

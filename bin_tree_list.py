@@ -36,7 +36,8 @@ def get_left_clild(root):
 def get_right_child(root):
 	return root[2]		
 
-## Testing
+
+
 r = binary_tree(1)
 insert_left_child(r,2)
 insert_right_child(r,3)
@@ -45,5 +46,3 @@ set_root_val(r,0)
 print get_root_val(r)
 print get_left_clild(r)
 print get_right_child(r)
-
-

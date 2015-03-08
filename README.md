@@ -50,7 +50,8 @@ A binary heap perform both enqueue and dequeue items in O(logn)
 ### Binary Heap Implementation (min heap)
 - bin_heap.py
 
+## Binary Search Tree
 
-
-
+In binary search tree, keys that are less than the parent are found in the left subtree, 
+and keys that are greater than the parent are found in the right subtree.
 

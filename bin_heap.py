@@ -11,7 +11,6 @@ class BinHeap:
         self.heap_list = [0]
         self.current_size = 0
 
-
     def pos_up(self,i):
 		# Apply heap oder property
         while i // 2 > 0:
@@ -29,7 +28,7 @@ class BinHeap:
       self.pos_up(self.current_size)
 
     def pos_down(self,i):
-	''' Pushing the new root node down the tree to its proper position '''	
+	  # Pushing the new root node down the tree to its proper position 
 	  # Repeat the swapping process with a node and its children until the node is 
 	  # swapped into a position on the tree where it is already less than both children
       while (i * 2) <= self.current_size:
@@ -65,7 +64,6 @@ class BinHeap:
           self.pos_down(i)
           i = i - 1
 
-# Testing
 
 bh = BinHeap()
 bh.build_heap([9,5,6,2,3])

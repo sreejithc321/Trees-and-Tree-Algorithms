@@ -1,5 +1,7 @@
 ## Tree traversals
 
+from bin_tree_class import BinaryTree
+
 def preorder(tree):
     if tree :
         print ' ', tree.get_root_val()
@@ -19,7 +21,6 @@ def inorder(tree):
 		inorder(tree.get_right_child())
 
 
-from bin_tree_class import BinaryTree
 
 r = BinaryTree('1')
 r.insert_left_node('2')
